@@ -101,9 +101,14 @@ body {
 }
 
 .modulo > ul > li > a {
-    display: flex;
+    display: list-item;
     text-decoration: none;
     color: #333;
+}
+
+.modulo > ul > li > a > b {
+    text-decoration: none;
+    color: green;
 }
 
 .modulo > ul > li:hover {

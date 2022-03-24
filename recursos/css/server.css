@@ -68,13 +68,13 @@ body {
 }
 
 .modulos {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .modulo {
-    flex-basis: 32%;
+    flex-basis: 25%;
     margin-bottom: 20px;
     border-radius: 5px;
 }
@@ -101,9 +101,17 @@ body {
 }
 
 .modulo > ul > li > a {
-    display: flex;
+    display: list-item;
     text-decoration: none;
     color: #333;
+}
+
+a.server {
+    text-align: end;
+}
+
+a.server > b {
+    color: #008000;
 }
 
 .modulo > ul > li:hover {

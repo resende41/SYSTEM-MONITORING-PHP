@@ -1,2 +1,0 @@
-# guest
-MY DEV CATALOG

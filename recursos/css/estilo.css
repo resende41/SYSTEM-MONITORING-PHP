@@ -103,7 +103,7 @@ body {
 .modulo > ul > li > a {
     display: flex;
     text-decoration: none;
-    color: #222;
+    color: #333;
 }
 
 .modulo > ul > li:hover {
